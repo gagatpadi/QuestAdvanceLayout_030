@@ -2,5 +2,7 @@
     <string name="app_name">QuestAdvanceLayoutPertemuan3</string>
     <string name="nama">Gagat Padi Yogaradhana</string>
     <string name="alamat">Bandarlampung, Lampung</string>
-    <string name="prodi"></string>
+    <string name="prodi">Teknologi Informasi</string>
+    <string name="univ">Universitas Muhammadiya</string>
+    <string name="copy">Copyright, 2025</string>
 </resources>
