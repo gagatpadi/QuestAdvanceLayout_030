@@ -91,7 +91,7 @@ fun ActivitasPertama(modifier: Modifier){
             Text(
                 text = stringResource(id = R.string.copy),
                 modifier = Modifier
-                    .align(Alignment.BottomCenter)
+                    .align(Alignment.BottomCenter) //typo perbaikan
                     .padding(bottom = 50.dp)
             )
         }
