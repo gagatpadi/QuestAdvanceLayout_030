@@ -19,6 +19,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ModifierLocalBeyondBoundsLayout
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
@@ -57,9 +58,9 @@ fun ActivitasPertama(modifier: Modifier){
                 verticalAlignment = Alignment.CenterVertically,
                 modifier = Modifier.padding(all = 10.dp)
             ) {
-                val gambar = pointerResource(id = R.drawable.logoumy)
+                val gambar = painterResource(id = R.drawable.logoumy)
                 Image(
-                    pointer = gambar,
+                    painter = gambar,
                     contentDescription = null,
                     modifier = Modifier
                         .size(size = 100.dp)
@@ -90,7 +91,7 @@ fun ActivitasPertama(modifier: Modifier){
             Text(
                 text = stringResource(id = R.string.copy),
                 modifier = Modifier
-                    .align(Aligment.BottomCenter)
+                    .align(Alignment.BottomCenter)
                     .padding(bottom = 50.dp)
             )
         }
