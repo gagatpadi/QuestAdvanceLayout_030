@@ -53,3 +53,16 @@ fun ActivitasPertama(modifier: Modifier){
                 containerColor = Color.DarkGray
             )
         ){
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                modifier = Modifier.padding(all = 10.dp)
+            ) {
+                val gambar = pointerResource(id = R.drawable.logoumy)
+                Image(
+                    pointer = gambar,
+                    contentDescription = null,
+                    modifier = Modifier
+                        .size(size = 100.dp)
+                        .padding(all = 5.dp)
+                )
+
